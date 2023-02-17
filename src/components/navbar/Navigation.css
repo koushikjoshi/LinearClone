@@ -1,0 +1,6 @@
+.navbar-main {
+  height: 40px !important;
+  width: 80vw !important;
+  border-bottom: 0.5px solid rgb(247, 248, 248);
+  /* border-width: thin; */
+}
