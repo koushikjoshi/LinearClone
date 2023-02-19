@@ -13,7 +13,7 @@ const Navigation = () => {
               width="18"
               height="18"
               viewBox="0 0 100 100"
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", paddingTop: "1px" }}
             >
               <path
                 fill="white"
@@ -26,6 +26,8 @@ const Navigation = () => {
               marginLeft: "-13px",
               marginRight: "1.5rem",
               cursor: "pointer",
+              fontSize: "16px",
+              letterSpacing: "0.2px",
             }}
           >
             Linear
