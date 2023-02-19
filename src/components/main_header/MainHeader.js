@@ -4,7 +4,13 @@ import "./MainHeader.css";
 const MainHeader = () => {
   return (
     <div className="main-header">
-      <p>Linear is a better way to build products</p>
+      <p className="header-content">
+        Linear is a better way <br /> to build products
+      </p>
+      <p className="header-text">
+        Meet the new standard for modern software development. <br />
+        Streamline issues, sprints, and product roadmaps.
+      </p>
     </div>
   );
 };
