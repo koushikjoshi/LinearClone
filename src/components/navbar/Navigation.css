@@ -26,7 +26,7 @@
 }
 .nav-texts {
   cursor: pointer;
-  padding-right: 2rem;
+  padding-right: 1.5rem;
 }
 .nav-texts:hover {
   color: gray;
@@ -34,4 +34,21 @@
 .login-btns {
   display: flex;
   flex-direction: row;
+}
+.sign-up-btn {
+  background: linear-gradient(
+    92.88deg,
+    rgb(69, 94, 181) 9.16%,
+    rgb(86, 67, 204) 43.89%,
+    rgb(103, 63, 215) 64.72%
+  );
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+}
+.sign-up-btn:hover {
+  color: white;
+  box-shadow: 
+    /* middle magenta */ 0 0 30px -5px rgb(69, 94, 181); /* outer cyan */
 }
