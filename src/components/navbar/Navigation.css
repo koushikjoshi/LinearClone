@@ -30,6 +30,7 @@
 }
 .nav-texts:hover {
   color: gray;
+  transition: color 0.3s;
 }
 .login-btns {
   display: flex;

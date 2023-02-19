@@ -14,3 +14,10 @@
   align-items: center;
   overflow-y: scroll;
 }
+.app-navbar {
+  position: fixed;
+  z-index: 1;
+}
+.app-main-header {
+  margin-top: 50px;
+}
