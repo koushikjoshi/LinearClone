@@ -18,8 +18,12 @@ const Navigation = () => {
           </div>
         </div>
         <div className="login-btns">
-          <div className="login-btn"></div>
-          <div></div>
+          <div className="login-btn">
+            <span className="nav-texts">Log in</span>
+          </div>
+          <div className="signup-btn">
+            <span className="nav-texts">Sign up</span>
+          </div>
         </div>
       </div>
       <div className="horizontal-div"></div>
